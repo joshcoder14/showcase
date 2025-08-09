@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>John Russel Suarez - Frontend Developer Portfolio</title>
+  <meta name="description" content="Portfolio of John Russel Suarez, a skilled Frontend Developer specializing in JavaScript, React, and modern web technologies.">
+  <meta name="keywords" content="frontend developer, web developer, JavaScript, React, portfolio, HTML, CSS, web development">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center"></a>
+
+      <nav id="navmenu" class="navmenu">
+
+        <div class="profile-img">
+          <img src="assets/img/profile/sidebar-profile.jpg" alt="" class="img-fluid rounded-circle">
+        </div>
+
+        <a href="index.html" class="logo d-flex align-items-center justify-content-center active">
+          <h1 class="sitename">John Russel Suarez</h1>
+        </a>
+
+        <div class="social-links text-center">
+          <a href="https://www.facebook.com/johnrussell.golosinosuarez/" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/josh_wa96/" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/john-russel-suarez-414490226/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="https://github.com/joshcoder14/" class="github"><i class="bi bi-github"></i></a>
+        </div>
+
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container">
+        <div class="row g-0 align-items-center">
+
+          <div class="col-lg-6 hero-content" data-aos="fade-right" data-aos-delay="100">
+            <div class="content-wrapper">
+              <h1 class="hero-title">Frontend <span class="typed" data-typed-items="Developer, React, Wordpress, UI Engineer"></span></h1>
+              <p class="lead">I craft engaging and impactful digital experiences with clean, efficient code. Specializing in modern web technologies, transform complex requirements into intuitive, high-performance web applications that deliver exceptional user experiences.</p>
+
+              <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
+                <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+              </div>
+
+              <div class="social-links" data-aos="fade-up" data-aos-delay="400">
+                <a href="https://www.facebook.com/johnrussell.golosinosuarez/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/john-russel-suarez-414490226/"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/joshcoder14"><i class="bi bi-github"></i></a>
+                <a href="https://www.instagram.com/josh_wa96/"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 hero-image" data-aos="fade-left" data-aos-delay="200">
+            <div class="image-container">
+              <div class="floating-elements">
+                <div class="floating-card card-1" data-aos="zoom-in" data-aos-delay="300">
+                  <i class="bi bi-code-slash"></i>
+                  <span>React.js</span>
+                </div>
+                <div class="floating-card card-2" data-aos="zoom-in" data-aos-delay="200">
+                  <i class="bi bi-wordpress"></i>
+                  <span>Wordpress</span>
+                </div>
+
+                <div class="floating-card card-3" data-aos="zoom-in" data-aos-delay="400">
+                  <i class="bi bi-layout-text-window-reverse"></i>
+                  <span>Frontend</span>
+                </div>
+                <div class="floating-card card-4" data-aos="zoom-in" data-aos-delay="500">
+                  <i class="bi bi-lightning"></i>
+                  <span>Performance</span>
+                </div>
+              </div>
+              <img src="assets/img/profile/profile.jpg" alt="John Russel Suarez - Frontend Developer" class="img-fluid hero-main-image">
+              <div class="image-overlay"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title d-flex flex-column align-items-center">
+        <h2 data-aos="fade-up" data-aos-delay="100">About</h2>
+        <p data-aos="fade-up" data-aos-delay="200">Get to know more about me and my professional journey</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+
+          <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
+            <div class="profile-image-wrapper">
+              <div class="profile-image">
+                <img src="assets/img/profile/profile2.jpg" alt="John Russel Suarez" class="img-fluid">
+              </div>
+              <div class="signature-section">
+                <p class="quote">"Transforming ideas into digital experiences using clean development and inventive approaches."</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+            <div class="about-content">
+              <div class="intro">
+                <h2>Hi, I'm John Russel - Frontend Developer</h2>
+                <p>Innovative Front End Developer known for high productivity and efficient task completion. I possess specialized skills in JavaScript, React, and CSS, enabling me to create visually appealing and user-friendly websites. I excel in problem-solving, teamwork, and communication, leveraging these soft skills to effectively collaborate with cross-functional teams and ensure project success.</p>
+              </div>
+
+              <div class="skills-grid">
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="skill-icon">
+                    <i class="bi bi-filetype-jsx"></i>
+                  </div>
+                  <h4>React.js</h4>
+                  <p>Building interactive UIs with component-based architecture</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="450">
+                  <div class="skill-icon">
+                    <i class="bi bi-layout-wtf"></i>
+                  </div>
+                  <h4>Responsive Design</h4>
+                  <p>Creating flawless experiences across all devices</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="500">
+                  <div class="skill-icon">
+                    <i class="bi bi-speedometer2"></i>
+                  </div>
+                  <h4>Performance</h4>
+                  <p>Optimizing for speed and smooth user interactions</p>
+                </div>
+              </div>
+
+              <div class="journey-timeline" data-aos="fade-up" data-aos-delay="300">
+                <div class="timeline-item">
+                  <div class="year">2018</div>
+                  <div class="description">Graduated with BS in Information Technology from Holy Name University</div>
+                </div>
+                <div class="timeline-item">
+                  <div class="year">2022</div>
+                  <div class="description">Joined Blendit as Frontend Developer</div>
+                </div>
+                <div class="timeline-item">
+                  <div class="year">2025</div>
+                  <div class="description">Expanding expertise in React and Next.js</div>
+                </div>
+              </div>
+
+              <div class="cta-section" data-aos="fade-up" data-aos-delay="400">
+                <div class="fun-fact">
+                  <span class="emoji">💻</span>
+                  <span class="text">Code enthusiast based in Bohol, Philippines</span>
+                </div>
+                <div class="action-buttons">
+                  <a href="#portfolio" class="btn btn-primary">View My Projects</a>
+                  <a href="#resume" class="btn btn-outline">View Resume</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="skills-grid">
+              <div class="row g-4">
+                <div class="col-md-6" data-aos="flip-left" data-aos-delay="200">
+                  <div class="skill-card">
+                    <div class="skill-header">
+                      <i class="bi bi-code-slash"></i>
+                      <h3>Frontend Development</h3>
+                    </div>
+                    <div class="skills-animation">
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">HTML/CSS</span>
+                          <span class="skill-percentage">100%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">JavaScript</span>
+                          <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">React.js</span>
+                          <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- End Frontend Card -->
+                </div>
+
+                <div class="col-md-6" data-aos="flip-left" data-aos-delay="300">
+                  <div class="skill-card">
+                    <div class="skill-header">
+                      <i class="bi bi-filetype-tsx"></i>
+                      <h3>Modern Frameworks</h3>
+                    </div>
+                    <div class="skills-animation">
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Next.js</span>
+                          <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">TypeScript</span>
+                          <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Redux</span>
+                          <span class="skill-percentage">50%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- End Backend Card -->
+                </div>
+
+                <div class="col-md-6" data-aos="flip-left" data-aos-delay="400">
+                  <div class="skill-card">
+                    <div class="skill-header">
+                      <i class="bi bi-brush"></i>
+                      <h3>CSS & Styling</h3>
+                    </div>
+                    <div class="skills-animation">
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Tailwind CSS</span>
+                          <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">SASS/SCSS</span>
+                          <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Bootstrap</span>
+                          <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- End Design Card -->
+                </div>
+
+                <div class="col-md-6" data-aos="flip-left" data-aos-delay="500">
+                  <div class="skill-card">
+                    <div class="skill-header">
+                      <i class="bi bi-tools"></i>
+                      <h3>Tools & Others</h3>
+                    </div>
+                    <div class="skills-animation">
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">Git</span>
+                          <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">RESTful APIs</span>
+                          <span class="skill-percentage">60%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </div>
+
+                      <div class="skill-item">
+                        <div class="skill-info">
+                          <span class="skill-name">WordPress</span>
+                          <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- End DevOps Card -->
+                </div>
+              </div>
+            </div><!-- End Skills Grid -->
+          </div>
+
+          <div class="col-lg-4">
+            <div class="skills-summary" data-aos="fade-left" data-aos-delay="200">
+              <h3>Technical Expertise</h3>
+              <p>Specializing in building responsive, high-performance web applications with modern JavaScript frameworks and clean, maintainable code.</p>
+
+              <div class="summary-stats">
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                  <div class="stat-circle">
+                    <i class="bi bi-trophy"></i>
+                  </div>
+                  <div class="stat-info">
+                    <span class="stat-number">4+</span>
+                    <span class="stat-label">Years Experience</span>
+                  </div>
+                </div>
+
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="stat-circle">
+                    <i class="bi bi-diagram-3"></i>
+                  </div>
+                  <div class="stat-info">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Projects Completed</span>
+                  </div>
+                </div>
+
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="500">
+                  <div class="stat-circle">
+                    <i class="bi bi-people"></i>
+                  </div>
+                  <div class="stat-info">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">Happy Clients</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills-badges" data-aos="fade-up" data-aos-delay="600">
+                <h4>Key Strengths</h4>
+                <div class="badge-list">
+                  <div class="skill-badge">Responsive Design</div>
+                  <div class="skill-badge">Performance</div>
+                  <div class="skill-badge">Clean Code</div>
+                  <div class="skill-badge">Cross-Browser Compatibility</div>
+                </div>
+              </div>
+            </div><!-- End Skills Summary -->
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title d-flex flex-column align-items-center">
+        <h2 data-aos="fade-up" data-aos-delay="100">Resume</h2>
+        <p data-aos="fade-up" data-aos-delay="200">My professional journey and educational background</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+            <div class="experience-section">
+              <div class="section-header">
+                <h2><i class="bi bi-briefcase"></i> Work Experience</h2>
+                <p class="section-subtitle">My professional journey in web development and marketing</p>
+              </div>
+
+              <div class="experience-cards">
+                <div class="experience-card" data-aos="zoom-in" data-aos-delay="300">
+                  <div class="card-header">
+                    <div class="role-info">
+                      <h3>Front End Developer</h3>
+                      <h4>Blendit</h4>
+                    </div>
+                    <span class="duration">June 2022 - April 2025</span>
+                  </div>
+                  <div class="card-body">
+                    <p>Developed responsive web applications and collaborated with cross-functional teams to deliver high-quality products.</p>
+                    <ul class="achievements">
+                      <li>Developed fully responsive web applications using HTML, CSS, and modern JavaScript frameworks</li>
+                      <li>Collaborated with UI/UX designers to translate designs into intuitive interfaces</li>
+                      <li>Integrated RESTful APIs to enhance application functionality</li>
+                      <li>Optimized website performance through advanced debugging</li>
+                      <li>Created modular, reusable components for development efficiency</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="experience-card" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="card-header">
+                    <div class="role-info">
+                      <h3>Marketing Staff</h3>
+                      <h4>Du Ek Sam Inc.</h4>
+                    </div>
+                    <span class="duration">December 2018 - May 2022</span>
+                  </div>
+                  <div class="card-body">
+                    <p>Worked on marketing campaigns and social media management to enhance brand visibility.</p>
+                    <ul class="achievements">
+                      <li>Worked with marketing teams to plan and execute campaigns</li>
+                      <li>Coordinated social media content across platforms</li>
+                      <li>Assisted in organizing community events</li>
+                      <li>Managed email marketing campaigns</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+            <div class="education-section">
+              <div class="section-header">
+                <h2><i class="bi bi-mortarboard"></i> Education</h2>
+                <p class="section-subtitle">My academic background and qualifications</p>
+              </div>
+
+              <div class="education-timeline">
+                <div class="timeline-track"></div>
+
+                <div class="education-item" data-aos="slide-up" data-aos-delay="300">
+                  <div class="timeline-marker"></div>
+                  <div class="education-content">
+                    <div class="degree-header">
+                      <h3>Bachelor of Science in Information Technology</h3>
+                      <span class="year">October 2018</span>
+                    </div>
+                    <h4 class="institution">Holy Name University, Tagbilaran City, Bohol</h4>
+                    <p>Completed degree program with focus on software development and web technologies.</p>
+                  </div>
+                </div>
+
+                <div class="education-item" data-aos="slide-up" data-aos-delay="400">
+                  <div class="timeline-marker"></div>
+                  <div class="education-content">
+                    <div class="degree-header">
+                      <h3>High School Diploma</h3>
+                      <span class="year">April 2013</span>
+                    </div>
+                    <h4 class="institution">San Miguel Technical Vocation School</h4>
+                    <p>Completed secondary education with technical vocational training.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="references-section" data-aos="fade-up" data-aos-delay="500">
+              <div class="section-header">
+                <h2><i class="bi bi-globe"></i> References</h2>
+                <p>Professional contacts who can vouch for my work</p>
+              </div>
+              <div class="references-list">
+                <div class="references-item">
+                  <h4>Melchor Lapinig Jr</h4>
+                  <p class="position">Software Engineer at TransVirtual</p>
+                  <p>09095426595 | lapinigmelchorjr@gmail.com</p>
+                </div>
+                <div class="references-item">
+                  <h4>Jmarc Avenido</h4>
+                  <p class="position">Software Engineer at Blenditoro</p>
+                  <p>09481447095 | avenidz31@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="w-100 p-3 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="100">
+        <a href="resume.php">Download Resume</a>
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title d-flex flex-column align-items-center">
+        <h2 data-aos="fade-up" data-aos-delay="100">Services</span></h2>
+        <p data-aos="fade-up" data-aos-delay="200">What I can offer as a frontend developer</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4">
+
+          <!-- Card 1 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-filetype-jsx"></i>
+              </div>
+              <h3>React Development</h3>
+              <p>Building interactive, high-performance web applications using React.js with clean, maintainable code and modern best practices.</p>
+              <div class="card-links">
+                <a href="#portfolio" class="link-item">
+                  See Examples
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- Card 2 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-layout-wtf"></i>
+              </div>
+              <h3>Responsive Web Design</h3>
+              <p>Creating websites that work flawlessly across all devices using modern CSS techniques like Flexbox, Grid, and media queries.</p>
+              <div class="card-links">
+                <a href="#portfolio" class="link-item">
+                  See Examples
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- Card 3 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-lightning-charge"></i>
+              </div>
+              <h3>Performance Optimization</h3>
+              <p>Improving website speed and user experience through code optimization, lazy loading, and efficient asset management.</p>
+              <div class="card-links">
+                <a href="#portfolio" class="link-item">
+                  See Examples
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- Card 4 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-wordpress"></i>
+              </div>
+              <h3>WordPress Development</h3>
+              <p>Building custom WordPress themes and plugins or converting existing designs to fully functional WordPress sites.</p>
+              <div class="card-links">
+                <a href="#portfolio" class="link-item">
+                  See Examples
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- Card 5 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-arrow-left-right"></i>
+              </div>
+              <h3>API Integration</h3>
+              <p>Connecting frontend applications with backend services through RESTful APIs for dynamic, data-driven experiences.</p>
+              <div class="card-links">
+                <a href="#portfolio" class="link-item">
+                  See Examples
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- Card 6 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-bug"></i>
+              </div>
+              <h3>Debugging & Maintenance</h3>
+              <p>Identifying and fixing issues in existing codebases, improving functionality, and ensuring cross-browser compatibility.</p>
+              <div class="card-links">
+                <a href="#portfolio" class="link-item">
+                  See Examples
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title d-flex flex-column align-items-center">
+        <h2 data-aos="fade-up" data-aos-delay="100">Portfolio</h2>
+        <p data-aos="fade-up" data-aos-delay="200">A selection of my recent projects and work</p>
+      </div><!-- End Section Title -->
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
+            <li data-filter="*" class="filter-active">
+              <i class="bi bi-grid-3x3"></i> All Projects
+            </li>
+            <li data-filter=".filter-react">
+              React
+            </li>
+            <li data-filter=".filter-wordpress">
+              WordPress
+            </li>
+            <li data-filter=".filter-ecommerce">
+              E-commerce
+            </li>
+            <li data-filter=".filter-others">
+              Others
+            </li>
+          </ul>
+
+          <div class="row g-4 m-auto isotope-container" data-aos="fade-up" data-aos-delay="300">
+
+            <div class="col-xl-4 col-lg-4 col-md-6 portfolio-item isotope-item filter-wordpress">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/casheddy/1.png" class="img-fluid" alt="Loan Platforms" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">WordPress</div>
+                      <h3 class="entry-title">Casheddy</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/casheddy/1.png" class="glightbox" data-gallery="portfolio-gallery" data-glightbox="title: Loan Platforms; description: Suite of loan application platforms.">
+                          <i class="bi bi-arrows-angle-expand"></i>
+                        </a>
+                        <a href="https://casheddy.es/" target="_blank">
+                          <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-lg-4 col-md-6 portfolio-item isotope-item filter-wordpress">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/fineddy/1.png" class="img-fluid" alt="Fineddy" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">WordPress</div>
+                      <h3 class="entry-title">Fineddy</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/fineddy/1.png" class="glightbox" data-gallery="portfolio-gallery" data-glightbox="title: Fineddy; description: Financial affiliate network.">
+                          <i class="bi bi-arrows-angle-expand"></i>
+                        </a>
+                        <a href="https://fineddy.io/" target="_blank">
+                          <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-lg-4 col-md-6 portfolio-item isotope-item filter-wordpress">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/tabasco/1.png" class="img-fluid" alt="Tabasco" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">WordPress</div>
+                      <h3 class="entry-title">Tabasco</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/tabasco/1.png" class="glightbox" data-gallery="portfolio-gallery" data-glightbox="title: Tabasco; description: Creative agency website.">
+                          <i class="bi bi-arrows-angle-expand"></i>
+                        </a>
+                        <a href="https://tabasco.ee/" target="_blank">
+                          <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-lg-4 col-md-6 portfolio-item isotope-item filter-react">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/playsignage/1.png" class="img-fluid" alt="Play Digital Signage" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">React.js</div>
+                      <h3 class="entry-title">Play Digital Signage</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/playsignage/1.png" class="glightbox" data-gallery="portfolio-gallery" data-glightbox="title: Play Digital Signage; description: Digital signage platform.">
+                          <i class="bi bi-arrows-angle-expand"></i>
+                        </a>
+                        <a href="https://playsignage.com/" target="_blank">
+                          <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-lg-4 col-md-6 portfolio-item isotope-item filter-react filter-ecommerce">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/motodepoo/1.png" class="img-fluid" alt="Motodepoo" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">React.js, Next.js</div>
+                      <h3 class="entry-title">Motodepoo</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/motodepoo/1.png" class="glightbox" data-gallery="portfolio-gallery" data-glightbox="title: Motodepoo; description: Motorcycle e-commerce platform.">
+                          <i class="bi bi-arrows-angle-expand"></i>
+                        </a>
+                        <a href="https://motodepoo.ee/" target="_blank">
+                          <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-lg-4 col-md-6 portfolio-item isotope-item filter-wordpress">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/skiptraze/1.png" class="img-fluid" alt="Skiptraze" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">WordPress</div>
+                      <h3 class="entry-title">Skiptraze</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/skiptraze/1.png" class="glightbox" data-gallery="portfolio-gallery" data-glightbox="title: Skiptraze; description: International skip-tracing Platform.">
+                          <i class="bi bi-arrows-angle-expand"></i>
+                        </a>
+                        <a href="https://skiptraze.com/" target="_blank">
+                          <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-lg-4 col-md-6 portfolio-item isotope-item filter-wordpress">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/prohive/1.png" class="img-fluid" alt="Prohive Freelance" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">WordPress</div>
+                      <h3 class="entry-title">Prohive Freelance</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/prohive/1.png" class="glightbox" data-gallery="portfolio-gallery" data-glightbox="title: Prohive Freelance; description: Freelance platform.">
+                          <i class="bi bi-arrows-angle-expand"></i>
+                        </a>
+                        <a href="https://prohive-freelance.free.nf/" target="_blank">
+                          <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-lg-4 col-md-6 portfolio-item isotope-item filter-wordpress">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/cashgo/1.png" class="img-fluid" alt="Cashgo" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">WordPress</div>
+                      <h3 class="entry-title">Cashgo</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/cashgo/1.png" class="glightbox" data-gallery="portfolio-gallery" data-glightbox="title: Cashgo; description: Loan Services Platform.">
+                          <i class="bi bi-arrows-angle-expand"></i>
+                        </a>
+                        <a href="https://cashgo.es/" target="_blank">
+                          <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-lg-4 col-md-6 portfolio-item isotope-item filter-wordpress">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/prestaluz/1.png" class="img-fluid" alt="Prestaluz" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">WordPress</div>
+                      <h3 class="entry-title">Prestaluz</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/prestaluz/1.png" class="glightbox" data-gallery="portfolio-gallery" data-glightbox="title: Prestaluz; description: Loan Services Platform.">
+                          <i class="bi bi-arrows-angle-expand"></i>
+                        </a>
+                        <a href="https://prestaluz.es/" target="_blank">
+                          <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-lg-4 col-md-6 portfolio-item isotope-item filter-wordpress">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/nexdinero/1.png" class="img-fluid" alt="Nexdinero" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">WordPress</div>
+                      <h3 class="entry-title">Nexdinero</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/nexdinero/1.png" class="glightbox" data-gallery="portfolio-gallery" data-glightbox="title: Nexdinero; description: Loan Services Platform.">
+                          <i class="bi bi-arrows-angle-expand"></i>
+                        </a>
+                        <a href="https://nexdinero.es/" target="_blank">
+                          <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-lg-4 col-md-6 portfolio-item isotope-item filter-others">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/github.jpg" class="img-fluid" alt="Github" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">Others</div>
+                      <h3 class="entry-title">Github Portfolio</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/github.jpg" class="glightbox" data-gallery="portfolio-gallery" data-glightbox="title: Nexdinero; description: Loan Services Platform.">
+                          <i class="bi bi-arrows-angle-expand"></i>
+                        </a>
+                        <a href="https://github.com/joshcoder14/portfolio" target="_blank">
+                          <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-lg-4 col-md-6 portfolio-item isotope-item filter-others">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/tori-skin.png" class="img-fluid" alt="Tori Skin" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">HTML/CSS</div>
+                      <h3 class="entry-title">Tori Skin Portfolio</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/tori-skin.png" class="glightbox" data-gallery="portfolio-gallery" data-glightbox="title: Nexdinero; description: Loan Services Platform.">
+                          <i class="bi bi-arrows-angle-expand"></i>
+                        </a>
+                        <a href="https://joshcoder14.github.io/Tori-Skin/" target="_blank">
+                          <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+      <!-- Section Title -->
+      <div class="container section-title d-flex flex-column align-items-center">
+        <h2 data-aos="fade-up" data-aos-delay="100">Testimonials</h2>
+        <p data-aos="fade-up" data-aos-delay="200">What colleagues and clients say about my work</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-12">
+            <div class="testimonials-container">
+              <div class="swiper testimonials-slider init-swiper" data-aos="fade-up" data-aos-delay="400">
+                <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                      "delay": 5000
+                    },
+                    "slidesPerView": 1,
+                    "spaceBetween": 30,
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "type": "bullets",
+                      "clickable": true
+                    },
+                    "breakpoints": {
+                      "768": {
+                        "slidesPerView": 2
+                      },
+                      "992": {
+                        "slidesPerView": 3
+                      }
+                    }
+                  }
+                </script>
+
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <p>
+                        "John's React skills are exceptional. He transformed our digital signage platform with clean, efficient code and intuitive UI components."
+                      </p>
+                      <div class="testimonial-profile">
+                        <img src="assets/img/person/person-f-1.webp" alt="Client" class="img-fluid rounded-circle">
+                        <div>
+                          <h3>Play Signage Client</h3>
+                          <h4>Project Manager</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- End testimonial item -->
+
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <p>
+                        "The loan services platforms John developed for us have significantly improved our conversion rates with their seamless user experience."
+                      </p>
+                      <div class="testimonial-profile">
+                        <img src="assets/img/person/person-m-4.webp" alt="Client" class="img-fluid rounded-circle">
+                        <div>
+                          <h3>Eddy's Client</h3>
+                          <h4>Project Manager</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- End testimonial item -->
+
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                      </div>
+                      <p>
+                        "Working with John on our e-commerce platform was a pleasure. His attention to detail and problem-solving skills are outstanding."
+                      </p>
+                      <div class="testimonial-profile">
+                        <img src="assets/img/person/person-m-2.webp" alt="Client" class="img-fluid rounded-circle">
+                        <div>
+                          <h3>Motodepoo Client</h3>
+                          <h4>Business Owner</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- End testimonial item -->
+
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- /Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title d-flex flex-column align-items-center">
+        <h2 data-aos="fade-up" data-aos-delay="100">Contact</h2>
+        <p data-aos="fade-up" data-aos-delay="200">Get in touch for collaborations or opportunities</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+              <h3>Contact Info</h3>
+              <p>Feel free to reach out if you have any questions, project inquiries, collaboration opportunities, or even if you just want to say hello. I'm always open to connecting, sharing ideas, and having meaningful conversations — whether it's about work, creativity, or anything in between. Looking forward to hearing from you!</p>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="content">
+                  <h4>Location</h4>
+                  <p>San Miguel, Bohol 6323</p>
+                  <p>Philippines</p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="content">
+                  <h4>Phone Number</h4>
+                  <p>+63 930 299 8650</p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="content">
+                  <h4>Email Address</h4>
+                  <p>jorusszeraus@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+              <h3>Get In Touch</h3>
+              <p>Have a project in mind or want to discuss opportunities? Send me a message!</p>
+
+              <form action="forms/contact.php" method="post" class="php-email-form" id="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <button type="submit" class="form-btn btn" id="submit-button">
+                      <span class="button-text">Send Message</span>
+                    </button>
+                  </div>
+                </div>
+              </form>
+
+              <div id="formSuccess" class="form-success">
+                <i class="bi bi-check-circle-fill"></i>
+                <h3 class="text-center font-bold">Thank You!</h3>
+                <p class="text-center">Your message has been sent successfully. We will get back to you soon.</p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <script>document.write(new Date().getFullYear())</script> <span>John Russel Suarez</span>. <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="https://github.com/joshcoder14"><i class="bi bi-github"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
