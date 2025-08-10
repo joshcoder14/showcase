@@ -237,35 +237,38 @@
     form.addEventListener('submit', function(e) {
       e.preventDefault();
       
-      const formData = new FormData(this);
       const formElement = this;
       const formSuccess = document.getElementById('formSuccess');
       const submitButton = this.querySelector('#submit-button');
-
-      submitButton.style.pointerEvents = 'none';
-
-      fetch(this.action, {
+      
+      submitButton.disabled = true;
+      
+      // For Netlify forms, we just need to let the form submit normally
+      // but we'll add our own success handling
+      fetch('/', {
         method: 'POST',
-        body: formData
-      })
-      .then(response => response.json())
-      .then(data => {
-        if (data.success) {
-          // Hide form and show success message
-          formElement.style.display = 'none';
-          formSuccess.style.display = 'block';
-          
-          setTimeout(() => {
-            // Hide success message and show form after 5 seconds
-            formSuccess.style.display = 'none';
-            formElement.style.display = 'block';
-            formElement.reset();
-          }, 5000);
+        body: new FormData(formElement),
+        headers: {
+          'Accept': 'application/json'
         }
-      }).catch((error) => {
+      })
+      .then(() => {
+        // Hide form and show success message
+        formElement.style.display = 'none';
+        formSuccess.style.display = 'block';
+        
+        setTimeout(() => {
+          // Hide success message and show form after 5 seconds
+          formSuccess.style.display = 'none';
+          formElement.style.display = 'block';
+          formElement.reset();
+        }, 5000);
+      })
+      .catch(error => {
         console.error('Error:', error);
-      }).finally(() => {
-        submitButton.style.pointerEvents = 'auto';
+      })
+      .finally(() => {
+        submitButton.disabled = false;
       });
     });
   });
